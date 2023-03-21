@@ -1,0 +1,109 @@
+/*start Rtl edit header*/
+header .logo img {
+    right: 40%;
+}
+header .search .form-control {
+    border-top-left-radius: 0;   
+    border-bottom-left-radius: 0;
+}
+header .search .btn-search {
+    border-top-right-radius: 0;   
+    border-bottom-right-radius: 0; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;   
+}
+header .icons + ul li a {
+    margin-right: 0;
+}
+header .icons + ul li a {
+    font-size: 10px;
+}
+/*End Rtl edit header*/
+
+/*Edit Rtl slider */
+.slideer .carousel-control-prev svg {
+    right: -55px;
+}
+.slideer .carousel-control-next svg {
+    right: 55px;  
+}
+
+
+/*start rtl Edit products */
+.products .product-ad h6 {
+    text-align: right;
+    padding-right: 8px;
+}
+.products .product-ad a.prics {
+    padding-right: 8px;
+    margin-left: 0;
+}
+.products .product-ad span {
+    padding-right: 6px;
+    padding-left: 0;
+}
+/*End Rtl edit products*/
+
+/* start RTL Edit fashion */
+.fashion .sale img.first {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;    
+}
+.fashion .sale img.last {
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;    
+}
+/* End RTL Edit Fashion */
+
+
+/*start rtl edit main products */
+.main-products .product-main h6 {
+    text-align: right;
+    margin-right: 8px;
+    margin-left: 0;
+}
+.main-products .product-main a.prics {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.main-products .product-main span {
+    margin-right: 6px;
+    margin-left: 0;
+}
+/*End rtl edit main products */
+
+/*start edit .strange form */
+.strange form div {
+   float: left;
+}
+.strange form div input[type="number"] {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.strange form div input[type="number"]::placeholder {
+    text-align: right;
+    margin-right: 5px;
+}
+.strange form div input[type="submit"] {
+    margin-left: 0;
+    margin-right: 4%;
+}
+/*start rtl edit footer*/
+footer form input[type="email"]::placeholder {
+    text-align: right;
+    margin-right: 5px;
+}
+footer form input[type="submit"] {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* Start Rtl Edit National */
+.national div img {
+    margin-left: 0;
+    margin-right: 25%;
+}
+/* start edit footer */
+footer .TheLast .nokia span {
+    margin-right: 25%;
+    margin-left: 0;
+}

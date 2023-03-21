@@ -1,0 +1,463 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+:root {
+    --MainColor: #232f3e;
+    --ChildColor:#ea1155;
+  }
+  .head {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 65px;
+    color: var(--MainColor);    
+}
+.img-thumbnail {
+    border: 1px solid var(--MainColor);
+}
+/* Start header */
+.first-header {
+    background-color: var(--MainColor);
+    padding: 0;
+    margin: 0;
+}
+.first-header .h-social-icons ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 18%;
+    overflow: hidden;
+}
+.first-header ul li {
+    margin-left: 7px;
+}
+.first-header ul li.c-fav {
+    margin-left: 50px;
+}
+.first-header ul li a svg {
+    color: var(--ChildColor);
+}
+/* End header */
+
+/*start navbar*/
+.navbar {
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(35 47 62);
+    color: var(--MainColor);
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 19px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 4px;
+    background-color: var(--ChildColor);
+}
+.dropdown-item {
+    font-weight: bold;
+}
+.dropdown-item:hover {
+    border: 2px solid var(--MainColor);
+    border-radius: 5px;
+    transition: all .3s ease;
+    background-color: transparent;
+}
+.dropdown-item.active, 
+.dropdown-item:active {
+    border: 2px solid var(--MainColor);
+    border-radius: 5px;
+    transition: all .3s ease;
+    color: var(--MainColor);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--MainColor);
+}
+.navbar .form-control {
+    outline: none;
+    box-shadow: none;
+    width: 265px;
+}
+.btn-outline-success:hover,
+.btn-outline-success {
+    color: var(--ChildColor);
+    background-color: var(--MainColor);
+    border-color: var(--MainColor);
+}
+.navbar-light .navbar-nav .nav-link.active {
+    border: 2px solid var(--MainColor);
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+/*end navbar*/
+
+/*start main box */
+main {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--MainColor);
+    color: var(--ChildColor);
+    font-weight: bold;
+    font-size: 25px;
+}
+/*end main box*/
+
+/* start carousul */
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    height: 75vh;
+}
+.carousel button span.next {
+    position: absolute;
+    left: 10px;
+    color: var(--ChildColor);
+
+}
+.carousel button span.prev {
+    position: absolute;
+    right: 10px;
+    color: var(--ChildColor);
+}
+/* end carousul */
+
+/* start section star products */
+.star-products .head {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 65px;
+    color: var(--MainColor);    
+}
+.lSSlideOuter {
+     width: 85%;
+     margin: 5px auto;
+}
+.lSSlideOuter ul {
+    width: 100%;
+}
+.lSSlideOuter ul li img {
+    height: 55vh;
+    transition-duration: .4s;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    box-shadow: 2px 2px 3px var(--MainColor),
+                -2px -2px 3px var(--MainColor);
+}
+.lSSlideOuter .lSPager.lSpg li a {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--MainColor) !important;
+}
+.lSSlideOuter .lSPager.lSpg li a:hover {
+    background-color: var(--MainColor) !important;;   
+    transition-duration: 0s; 
+}
+.lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: var(--ChildColor) !important;
+    transition: all 0.2s linear 0s;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+    transition: all .2s linear;
+}
+.star-products ul li a button{
+    width: 100%;
+    background-color: var(--MainColor);
+    color: var(--ChildColor);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.lSSlideWrapper {
+    box-shadow: 3px 3px 5px black;
+}
+/* end section star products */
+
+/* start month discount */
+.sale-month .head {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--MainColor);    
+}
+.sale-month .pro-parent {
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sale-month .pro-parent a {
+    width: 100%;
+    background-color: var(--MainColor);
+    color: var(--ChildColor);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 17px;
+    overflow: hidden;
+}
+.sale-month .pro-parent a span {
+    margin-left: 50%;
+}
+.sale-month .pro-parent .pro-one {
+    height: 400px;
+    overflow: hidden;
+}
+.sale-month .pro-parent .pro-one img {
+    height: 100%;
+    transition: all 1s ease;
+}
+.sale-month .pro-parent .pro-one:hover + .title {
+    opacity: 1;
+}
+
+.sale-month .pro-parent .title:hover {
+    opacity: 1;
+}
+
+.sale-month .pro-parent .title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.sale-month .pro-parent .title h5 {
+    color: var(--MainColor);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    z-index: 10;
+}
+
+.sale-month .pro-parent .title a {
+    position: absolute;
+    bottom: 10%;
+    width: 55% !important;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--MainColor);
+    font-weight: bold;
+    border: 2px solid var(--ChildColor);
+    font-weight: 800;
+    text-decoration: none;
+    background-color: transparent;
+    z-index: 10;
+}
+.sale-month .pro-parent > .title a .favourite {
+    margin-left: 50%;
+    color: var(--ChildColor);
+}
+.sale-month .pro-parent > .title a .cart {
+    margin-left: -50%;
+    color: var(--ChildColor);
+}
+/*end month discount */
+
+/* start overlay box */
+.parent-overlay {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: url(../Images/overlay-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .parent-overlay .overlay {
+    position: absolute;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #31373fc9;
+ }
+ .parent-overlay .overlay h1 {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     text-transform: capitalize;
+     text-decoration: overline;
+     align-items: center;
+     justify-content: center;
+     color: var(--ChildColor);
+     font-size: 70px;
+     font-weight: 700;
+ }
+/*end overlay box */
+
+/*start main products*/
+.main-products .product-m {
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main-products .product-m a {
+    width: 100%;
+    background-color: var(--MainColor);
+    color: var(--ChildColor);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.main-products .product-m a span {
+    margin-left: 50%;
+}
+.main-products .product-m .pro-one {
+    height: 400px;
+    overflow: hidden;
+}
+.main-products .product-m .pro-one img {
+    height: 100%;
+    transition: all 1s ease;
+}
+.main-products .product-m .pro-one:hover + .title {
+    opacity: 1;
+}
+
+.main-products .product-m .title:hover {
+    opacity: 1;
+}
+
+.main-products .product-m .title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+.main-products .product-m .title h5 {
+    color: var(--MainColor);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    z-index: 10;
+}
+.main-products .product-m .title a {
+    position: absolute;
+    bottom: 10%;
+    width: 55% !important;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--MainColor);
+    font-weight: bold;
+    border: 2px solid var(--ChildColor);
+    font-weight: 800;
+    text-decoration: none;
+    background-color: transparent;
+    z-index: 10;
+}
+.main-products .product-m > .title a .favourite {
+    margin-left: 50%;
+    color: var(--ChildColor);
+}
+.main-products .product-m > .title a .cart {
+    margin-left: -50%;
+    color: var(--ChildColor);
+}
+/* end main products */
+
+/* start last slide */
+.last-slide {
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.last-slide .lSSlideOuter {
+    width: 100%;
+}
+.last-slide .lSAction > a {
+    width: 75px;
+    height: 30px;
+    background-color: var(--MainColor);
+}
+.last-slide .lSAction > a.lSPrev {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.last-slide .lSAction > a.lSNext {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;    
+}
+
+.last-slide .lSSlideOuter ul li a img {
+    height: 200px;
+    transition-duration: .4s;
+    border: none;
+    border-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;    
+    box-shadow: none;    
+}
+.last-slide .lSSlideOuter .lSPager.lSpg {
+    display: none;
+}
+/* End last slide */
+
+
+/*start footer section */
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: var(--MainColor);
+    margin-top: 35px;
+    padding-top: 35px;
+    color: white;
+}
+
+.footer .footer-logo h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer .footer-logo p {
+    color: var(--ChildColor);
+    font-weight: bold;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: var(--ChildColor);
+  font-weight: 700;
+}
+
+.footer div ul li a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer div .social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.footer div .social ul li {
+    margin: 0 7px;
+}
+.footer hr {
+    color: var(--ChildColor);
+}
+/*End footer section */
