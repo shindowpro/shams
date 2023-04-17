@@ -1,0 +1,11 @@
+#siteNav li a {
+  color: #fff;
+}
+#siteNav li a:hover {
+  color: orange;
+}
+
+.iconset,
+.iconset a {
+  color: #fff;
+}

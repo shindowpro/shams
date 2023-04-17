@@ -1,5 +1,10 @@
+#siteNav {
+  background-color: transparent;
+}
+
 #siteNav li a {
-  color: #fff;
+  /* color: #fff; */
+  color: #111;
 }
 #siteNav li a:hover {
   color: orange;
@@ -7,5 +12,10 @@
 
 .iconset,
 .iconset a {
-  color: #fff;
+  /* color: #fff; */
+  color: #111;
+}
+
+.header-7 .search-inline .input-box .action {
+  background: transparent;
 }
