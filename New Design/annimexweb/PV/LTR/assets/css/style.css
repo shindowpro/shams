@@ -662,7 +662,8 @@ body:not(.searchact) .header-main:not(.sticky-header) { background:none; box-sha
 .searchact .header-9 .iconset:hover .icon, .searchact .header-9 .iconset:hover .text, .searchact .header-9 .iconset:hover a { color: #489aaf; }
 
 .header-7.header-main, .header-7 .header-wrap { background-color: #000; color: #ffffff; }
-.header-7 #siteNav > li > a { color:#ffffff; font-size:12px; }
+/* .header-7 #siteNav > li > a { color:#ffffff; font-size:12px; } */
+.header-7 #siteNav > li > a { color:#ffffff; font-size:20px; }
 .header-7 #siteNav > li > a:hover { color:#eeeeee; }
 .header-7 #siteNav > li > a:after { background-color:#ffffff; }
 .header-7 .iconset, .header-7 .iconset a { color:#ffffff; }
