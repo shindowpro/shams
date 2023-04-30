@@ -432,14 +432,16 @@ body:not(.searchact) .header-main:not(.sticky-header) { background:none; box-sha
 .logo a { position: relative;display: block;font-weight: 700;text-transform: uppercase;font-size: 22px;line-height: 1;text-decoration: none;text-align: center; }
 .logo img { display:block; max-width:154px; max-height:32px; margin:0 auto; }
 
-.iconset .icon { font-size:17px; min-width:17px; text-decoration:none; display:inline-block; vertical-align:middle; }
+.iconset { margin:2px }
+.iconset .icon { font-size:13px; min-width:13px; text-decoration:none; display:inline-block; vertical-align:middle; }
+.iconset .text { font-size:10px; min-width:13px; text-decoration:none; display:inline-block; vertical-align:middle; }
 .iconset { position:relative; color:#030505; height:30px; line-height:30px; text-align:center; padding:0 9px; cursor:pointer; display:flex;align-items:center; }
 .iconset:hover .icon, .iconset:hover .text, .iconset:hover a { color:#f06543; }
 .iconset:hover .tooltip-label { opacity:1; top:-26px; visibility:visible; }
 .header .iconset .tooltip-label { top: -30px; }
 .header .iconset:hover .tooltip-label { top:-20px; }
 .sticky-header .iconset:hover .tooltip-label { top:-17px; }
-.counter { font-size:11px; color:#fff; background-color:#000; min-width:16px; height:16px; line-height:16px; top:3px; right:-13px; }
+.counter { font-size:11px; color:#fff; background-color:#000; min-width:16px; height:16px; line-height:16px; top:3px; right:0px; }
 
 #settingsBox, #cart-drawer, #searchPopup, #userLinks { color:#050000; text-align:left; background-color:#ffffff; box-shadow:0 0 15px rgba(5,0,0,.1); -webkit-box-shadow:0 0 15px rgba(5,0,0,.1); -ms-transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out; }
 #settingsBox, #userLinks { visibility:hidden; opacity:0; padding:20px; width:300px; position:absolute; top:130%; right:15px; z-index:99; }
@@ -531,6 +533,8 @@ body:not(.searchact) .header-main:not(.sticky-header) { background:none; box-sha
 #siteNav .menubox p .title { color:#222; background-color:#fff; border-radius:2px; padding:6px 15px; margin:0 0 20px; white-space:nowrap; }
 #AccessibleNav { padding-left:0; }
 .mobile-nav-wrapper, .site-header__logo.mobileview { display:none; }
+.mobile-nav-wrapper #MobileNav a { color:#000; }
+.mobile-nav-wrapper #MobileNav a:hover { color:orange; }
 
 @media (min-width:990px) {
     .header .container { position:relative; }
@@ -554,7 +558,10 @@ body:not(.searchact) .header-main:not(.sticky-header) { background:none; box-sha
     #siteNav > li > a .navLbl.hurryup { background-color: #94c442; }
     #siteNav > li > a .navLbl.hurryup:after { border-top-color: #94c442; border-left-color: #94c442; }
 
+    /* Edit megamenu width */
     #siteNav > li .megamenu { opacity:0; visibility:hidden; padding:30px; width:100%; position:absolute; top:auto; left:0; z-index:999; background-color:#fff; box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.3); pointer-events:none; max-height:650px; overflow:auto; box-shadow:0px 0px 15px rgba(0,0,0,0.1); -webkit-transform:translateY(20px); transform:translateY(20px); -webkit-transition:all .3s ease-in; transition:all .3s ease-in; }
+    /* #megamenu > .megamenu { opacity:0; visibility:hidden; padding:30px; width:60%; position:absolute; top:auto; left:0; z-index:999; background-color:#fff; box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.3); pointer-events:none; max-height:650px; overflow:auto; box-shadow:0px 0px 15px rgba(0,0,0,0.1); -webkit-transform:translateY(20px); transform:translateY(20px); -webkit-transition:all .3s ease-in; transition:all .3s ease-in; } */
+    
     .index-demo10 #siteNav > li .megamenu.style3 { max-width:900px; }
     #siteNav > li .megamenu ul { padding:0; list-style:none; }
     #siteNav > li:hover > .megamenu { -webkit-transform:translateY(0); transform:translateY(0); opacity:1; visibility:visible; pointer-events:visible; }
@@ -750,6 +757,7 @@ body:not(.searchact) .header-main:not(.sticky-header) { background:none; box-sha
 .index-demo2 h2, .index-demo2 .h2 { text-transform:none; }
 .index-demo2 .collection-slider-full .collection-grid-slider .details { padding-bottom:0; }
 .index-demo2 #site-scroll { border-radius:3px; background-color:#f9f9f9; }
+.index-demo2 #site-scroll:hover { border-radius:50%; background-color: orange;  }
 
 /*----- Minicart Style 2 -----*/
 .modal-popup-style .minicart-right-drawer.right.fade .modal-dialog,

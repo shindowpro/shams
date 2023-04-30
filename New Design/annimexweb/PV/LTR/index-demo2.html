@@ -132,8 +132,9 @@
                 <!--End Mobile Toggle-->
 
                 <!--Logo-->
+                <!-- class="logo d-flex-center" -->
                 <div
-                  class="logo d-flex-center"
+                  class="logo d-flex-left"
                   style="margin: 0px auto; padding: 0px"
                 >
                   <a href="index.html"
@@ -153,7 +154,7 @@
               <!--Search Inline-->
               <div
                 class="col-1 col-sm-1 col-md-1 col-lg-8 d-none d-lg-block"
-                style="margin-top: 40px; border: none"
+                style="margin-top: 40px; border: none; margin-left: -50px"
               >
                 <form
                   class="form minisearch search-inline w-100 px-5"
@@ -224,7 +225,7 @@
               </div>
               <!--End Search Inline-->
 
-              <!--Right Action-->
+              <!--Right Action [Icons]-->
               <div
                 class="col-6 col-sm-6 col-md-6 col-lg-2 align-self-center icons-col text-right d-flex justify-content-end"
                 style=""
@@ -248,8 +249,10 @@
 
                 <!--Setting Dropdown-->
                 <div class="user-link iconset flex-lg-column">
-                  <i class="icon an an-user-expand"></i
-                  ><span class="text d-none d-lg-flex">ACCOUNT</span>
+                  <i class="icon an an-user-expand" style="text-indent: 5px"></i
+                  ><span class="text d-none d-lg-flex" style="text-indent: 10px"
+                    >ACCOUNT</span
+                  >
                 </div>
 
                 <div id="userLinks" class="mt-lg-3">
@@ -267,7 +270,10 @@
                 <!--End Setting Dropdown-->
 
                 <!--Minicart Drawer-->
-                <div class="header-cart iconset flex-lg-column">
+                <div
+                  class="header-cart iconset flex-lg-column"
+                  style="margin-left: -5px"
+                >
                   <a
                     href="#"
                     class="site-header__cart btn-minicart d-flex-justify-center flex-lg-column"
@@ -284,9 +290,47 @@
                 </div>
                 <!--End Minicart Drawer-->
 
+                <!-- Start Message-->
+                <div class="user-link iconset flex-lg-column">
+                  <i class="icon an an-envelope1"></i
+                  ><span class="text d-none d-lg-flex">Message</span>
+                </div>
+
+                <!-- End Message-->
+
+                <!-- start Language -->
+                <!-- <i class="icon an an-globe"></i -->
+                <!-- <span class="text d-none d-lg-flex">Langs</span> -->
+                <div
+                  class="setting-link iconset flex-lg-column pe-0"
+                  style="
+                    margin-left: 8px;
+                    width: 40px;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                  "
+                >
+                  <i
+                    class="icon an"
+                    style="
+                      text-align: center;
+                      line-height: 1.5rem;
+                      margin: 0px 5px 0px 0px;
+                    "
+                    >En</i
+                  ><span class="tooltip-label">Languages</span>
+                </div>
+                <!-- end Language -->
+
                 <!--Setting Dropdown-->
-                <div class="setting-link iconset flex-lg-column pe-0">
-                  <i class="icon an an-globe"></i
+                <div
+                  class="setting-link iconset flex-lg-column pe-0"
+                  style="font-size: 18px"
+                >
+                  <i
+                    class="icon an an-globe"
+                    style="font-size: 18px; line-height: 1.5rem"
+                  ></i
                   ><span class="tooltip-label">Settings</span>
                 </div>
 
@@ -1192,12 +1236,15 @@
                 </li>
 
                 <!-- Shop Deals -->
-                <li class="lvl1 parent megamenu">
+                <li id="megamenu" class="lvl1 parent megamenu">
                   <a href="#;" class="shop-offers"
                     >Shop Deal <i class="an an-angle-down-l"></i
                     ><span class="navLbl sale">Sale</span></a
                   >
-                  <div class="megamenu megamenu-gridproduct end-0 mx-auto">
+                  <div
+                    class="megamenu megamenu-gridproduct end-0 mx-auto"
+                    style="width: 60%"
+                  >
                     <!--Product Grid-->
                     <div class="grid-products">
                       <div class="row">
@@ -3009,6 +3056,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3024,6 +3072,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3039,6 +3088,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3054,6 +3104,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3069,6 +3120,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3084,6 +3136,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3099,6 +3152,7 @@
                   </div>
                 </a>
               </div>
+
               <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
@@ -3112,21 +3166,6 @@
                   <div class="details">
                     <h3 class="collection-item-title">Shoes</h3>
                   </div>
-                </a>
-              </div>
-              <div class="collection-item" style="width: 100px">
-                <a href="#" class="collection-grid-link">
-                  <d  iv class="img">
-                    <img
-                      class="blur-up lazyload"
-                      data-src="assets/images/collection/demo2-ct-img6.jpg"
-                      src="assets/images/collection/demo2-ct-img6.jpg"
-                      alt="Shoes"
-                    />
-              </div>
-                <div class="details">
-                  <h3 class="collection-item-title">Shoes</h3>
-                </div>
                 </a>
               </div>
             </div>
