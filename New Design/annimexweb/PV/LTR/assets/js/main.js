@@ -473,13 +473,13 @@
     }
     product_slider_ppage();
 
-
+    // Edit =>[slidesToShow: 4 - 8]  >>>>>
     /* 9.9 Collection Slider */
     function collection_slider() {
         $('.collection-grid-slider').slick({
             dots: false,
             infinite: true,
-            slidesToShow: 5,
+            slidesToShow: 7,
             slidesToScroll: 1,
             arrows: true,
             autoplay: true,
@@ -634,6 +634,43 @@
         });
     }
     collection_slider_7items();
+
+    /* 9.13.1 Collection Slider 8 Items */
+    function collection_slider_8items() {
+        $('.collection-slider-8items').slick({
+            dots: false,
+            infinite: true,
+            slidesToShow: 8,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    }
+    collection_slider_8items();
 
     /* 9.14 Collection Slider2 4 Items */
     function collection_slider1() {

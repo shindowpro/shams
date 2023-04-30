@@ -107,9 +107,14 @@
         <header
           id="header"
           class="header header-wrap d-flex align-items-center"
-          style="background: url(assets/images/woodenB.jpg); min-height: 50px; " 
+          style="
+            background: url(assets/images/woodenB.jpg);
+            height: 40px;
+            min-height: 60px;
+          "
         >
-          <div class="container" style="min-height: 30px;">
+          <!-- style="min-height: 30px" -->
+          <div class="container" style="min-height: 40px">
             <div class="row">
               <!--Logo / Menu Toggle-->
               <!-- style="margin-left: -40px" -->
@@ -127,7 +132,10 @@
                 <!--End Mobile Toggle-->
 
                 <!--Logo-->
-                <div class="logo d-flex-center">
+                <div
+                  class="logo d-flex-center"
+                  style="margin: 0px auto; padding: 0px"
+                >
                   <a href="index.html"
                     ><img
                       class="logo-img mh-100"
@@ -378,7 +386,12 @@
         <header
           id="header"
           class="header header-wrap d-flex align-items-center align-self-stretch"
-          style="background: url(assets/images/woodenB.jpg); margin-top:0px; min-height:50px ; padding:0px"
+          style="
+            background: url(assets/images/woodenB.jpg);
+            margin-top: 0px;
+            min-height: 50px;
+            padding: 0px;
+          "
         >
           <!-- Start Nav Menu -->
           <!-- <div class="col-1 col-sm-1 col-md-1 col-lg-12 align-self-center d-menu-col" -->
@@ -391,11 +404,15 @@
               padding: 10px 50px;
               border: 5px solid #fff;
               margin: 0px auto;
-              padding:0px
+              padding: 0px;
             "
           >
-            <nav class="grid__item" id="AccessibleNav" style="padding:0px">
-              <ul id="siteNav" class="site-nav center hidearrow" style="font-size:20px;">
+            <nav class="grid__item" id="AccessibleNav" style="padding: 0px">
+              <ul
+                id="siteNav"
+                class="site-nav center hidearrow"
+                style="font-size: 20px"
+              >
                 <li class="lvl1 parent megamenu">
                   <a href="#;">Home <i class="an an-angle-down-l"></i></a>
                   <div class="megamenu style1">
@@ -645,9 +662,9 @@
                                   class="title text-uppercase"
                                   >Single Product Layout</a
                                 > -->
-                                <a href="#" class="title text-uppercase"
+                                <!-- <a href="#" class="title text-uppercase"
                                   >Single Product Layout</a
-                                >
+                                > -->
                               </p>
                             </div>
                           </div>
@@ -2047,25 +2064,30 @@
         <header
           id="header"
           class="header header-wrap d-flex align-items-center align-self-stretch"
-          style="background: url(assets/images/woodenB.jpg); margin-top:-10px; min-height: 60px;"
+          style="
+            background: url(assets/images/woodenB.jpg);
+            margin-top: -10px;
+            min-height: 50px;
+          "
         >
           <!-- /* margin-bottom: 50px; */ -->
           <div
-            class="col-1 col-sm-1 col-md-1 col-lg-12 align-self-center d-menu-col "
+            class="col-1 col-sm-1 col-md-1 col-lg-12 align-self-center d-menu-col"
             style="
               background-color: transparent;
               width: 100%;
-              padding: 15px 50px;
+              padding: 0px 50px;
               border: 5px solid #fff;
               margin: 0px auto;
               color: #fff;
-              font-size: 30px; 
-              text-align: center;">
-              Get deals from our Best Sellers on our website!
-            </div>
+              font-size: 30px;
+              text-align: center;
+            "
+          >
+            Get deals from our Best Sellers on our website!
           </div>
+          <!-- </div> -->
         </header>
-
       </div>
       <!--End Header wrap-->
 
@@ -2817,10 +2839,9 @@
         <!--Home slider [hero]-->
         <section class="slideshow slideshow-wrapper">
           <div class="home-slideshow">
+            <!-- Slide 1 -->
             <div class="slide">
               <div class="blur-up lazyload">
-                <!-- data-src="assets/images/slideshow/demo2-banner1.jpg"
-                src="assets/images/slideshow/demo2-banner1.jpg" -->
                 <img
                   class="blur-up lazyload desktop-hide"
                   data-src="assets/images/slideshow/slide1.jpg"
@@ -2867,19 +2888,22 @@
                 </div>
               </div>
             </div>
+            <!-- Slide 2 -->
             <div class="slide">
               <div class="blur-up lazyload">
                 <img
                   class="blur-up lazyload desktop-hide"
-                  data-src="assets/images/slideshow/demo2-banner2.jpg"
-                  src="assets/images/slideshow/demo2-banner2.jpg"
+                  data-src="assets/images/slideshow/slide3.jpg"
+                  src="assets/images/slideshow/slide3.jpg"
                   alt="MAKING BRAND VISIBLE"
                   title="MAKING BRAND VISIBLE"
                 />
+                <!-- data-src="assets/images/slideshow/demo2-banner2-m.jpg"
+                src="assets/images/slideshow/demo2-banner2-m.jpg" -->
                 <img
                   class="blur-up lazyload mobile-hide"
-                  data-src="assets/images/slideshow/demo2-banner2-m.jpg"
-                  src="assets/images/slideshow/demo2-banner2-m.jpg"
+                  data-src="assets/images/slideshow/slide3.jpg"
+                  src="assets/images/slideshow/slide3.jpg"
                   alt="MAKING BRAND VISIBLE"
                   title="MAKING BRAND VISIBLE"
                 />
@@ -2909,13 +2933,58 @@
                 </div>
               </div>
             </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="blur-up lazyload">
+                <img
+                  class="blur-up lazyload desktop-hide"
+                  data-src="assets/images/slideshow/slide5.jpg"
+                  src="assets/images/slideshow/slide5.jpg"
+                  alt="MAKING BRAND VISIBLE"
+                  title="MAKING BRAND VISIBLE"
+                />
+                <!-- data-src="assets/images/slideshow/demzo2-banner2-m.jpg"
+                src="assets/images/slideshow/demo2-banner2-m.jpg" -->
+                <img
+                  class="blur-up lazyload mobile-hide"
+                  data-src="assets/images/slideshow/slide5.jpg"
+                  src="assets/images/slideshow/slide5.jpg"
+                  alt="MAKING BRAND VISIBLE"
+                  title="MAKING BRAND VISIBLE"
+                />
+                <div
+                  class="slideshow-content slideshow-overlay bottom-middle container d-flex justify-content-center align-items-center"
+                >
+                  <div class="slideshow-content-in text-center">
+                    <!-- <div class="wrap-caption animation style1 whiteText px-2"> -->
+                    <div class="wrap-caption animation style1 px-2">
+                      <p class="ss-small-title mb-2 text-uppercase">
+                        Welcome every body in Zorro Store
+                      </p>
+                      <h2 class="mega-title ss-mega-title fs-1 text-capitalize">
+                        Infinite Possibilities
+                      </h2>
+                      <span
+                        class="mega-subtitle ss-sub-title fs-6 d-md-block d-lg-block d-none"
+                        >Increase your exposure, customers & sales.</span
+                      >
+                      <div class="ss-btnWrap mt-3 mt-md-0">
+                        <a class="btn btn-lg border-0 btn-primary" href="#"
+                          >View Collection</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <!--End Home slider-->
 
         <!--Collection Slider Section-->
-        <section class="section collection-slider-full">
-          <div class="container">
+        <section class="section collection-slider-full" style="width: 100%">
+          <div class="container" style="max-width: 1960px">
             <div class="section-header">
               <h2>Discover the Best Value Deals</h2>
               <p>
@@ -2925,7 +2994,7 @@
             </div>
 
             <div class="collection-grid-slider">
-              <div class="collection-item">
+              <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
@@ -2940,7 +3009,22 @@
                   </div>
                 </a>
               </div>
-              <div class="collection-item">
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/collection/demo2-ct-img1.jpg"
+                      src="assets/images/collection/demo2-ct-img1.jpg"
+                      alt="Women"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Women</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
@@ -2955,7 +3039,22 @@
                   </div>
                 </a>
               </div>
-              <div class="collection-item">
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/collection/demo2-ct-img2.jpg"
+                      src="assets/images/collection/demo2-ct-img2.jpg"
+                      alt="Men"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Men</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
@@ -2970,8 +3069,8 @@
                   </div>
                 </a>
               </div>
-              <div class="collection-item">
-                <a href="#" class="ccollection-grid-link">
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
                       class="blur-up lazyload"
@@ -2985,7 +3084,7 @@
                   </div>
                 </a>
               </div>
-              <div class="collection-item">
+              <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
@@ -3000,7 +3099,7 @@
                   </div>
                 </a>
               </div>
-              <div class="collection-item">
+              <div class="collection-item" style="width: 100px">
                 <a href="#" class="collection-grid-link">
                   <div class="img">
                     <img
@@ -3013,6 +3112,21 @@
                   <div class="details">
                     <h3 class="collection-item-title">Shoes</h3>
                   </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <d  iv class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/collection/demo2-ct-img6.jpg"
+                      src="assets/images/collection/demo2-ct-img6.jpg"
+                      alt="Shoes"
+                    />
+              </div>
+                <div class="details">
+                  <h3 class="collection-item-title">Shoes</h3>
+                </div>
                 </a>
               </div>
             </div>
@@ -7095,6 +7209,143 @@
           <!--End Instagram Slider-->
         </div>
         <!--End Instagram Section-->
+
+        <!--Zones Slider Section-->
+        <section class="section collection-slider-full" style="width: 100%">
+          <div class="container" style="max-width: 1800px">
+            <div class="section-header">
+              <h2>Discover our products by supplier</h2>
+              <p>
+                Your One-stop Online Shopping Site For Clothes,<br />
+                Accessories Footwear & More
+              </p>
+            </div>
+
+            <div class="collection-slider-8items">
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/alageria.png"
+                      src="assets/images/flags/alageria.png"
+                      alt="Alageria"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Alageria</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/china.png"
+                      src="assets/images/flags/china.png"
+                      alt="china"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">China</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/Emirates.png"
+                      src="assets/images/flags/Emirates.png"
+                      alt="Emirates"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Emirates</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/Germany.png"
+                      src="assets/images/flags/Germany.png"
+                      alt="Germany"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Germany</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/indea.png"
+                      src="assets/images/flags/indea.png"
+                      alt="Indea"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Indea</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/Espania.png"
+                      src="assets/images/flags/Espania.png"
+                      alt="Espania"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Espania</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/saudi-arabia.png"
+                      src="assets/images/flags/saudi-arabia.png"
+                      alt="Saudi Arabia"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">Saudi Arabia</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="collection-item" style="width: 100px">
+                <a href="#" class="collection-grid-link">
+                  <div class="img">
+                    <img
+                      class="blur-up lazyload"
+                      data-src="assets/images/flags/united-states.png"
+                      src="assets/images/flags/united-states.png"
+                      alt="United States"
+                    />
+                  </div>
+                  <div class="details">
+                    <h3 class="collection-item-title">United States</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Zones Slider Section-->
       </div>
       <!--End Body Container-->
 

@@ -19,3 +19,16 @@
 .header-7 .search-inline .input-box .action {
   background: transparent;
 }
+
+.collection-slider-8items .collection-item a .img {
+  width: 50%;
+  margin: 5px auto;
+}
+
+.collection-slider-8items .collection-item a .details,
+.collection-slider-8items .collection-item a .details * {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 5px auto;
+}
